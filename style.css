@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&family=Sacramento&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+
+hr{
+    border:none;
+    /* height: 5px; */
+    border-top: 10px dotted #ccc;
+    width: 10%;
+    margin:20px auto; 
+}
+
+
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Poppins";
+}
+
+.title-h2 {
+  color: #66bfbf;
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+  transition: 0.5s;
+}
+
+/* header */
+header {
+  text-align: center;
+  background: #eaf6f6;
+  color: #66bfbf;
+  position: relative;
+}
+header h1 {
+  font-family: "Sacramento";
+  font-size: 5.625rem;
+  margin-top: 100px;
+}
+header h2 {
+  font-family: "Poppins";
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+header .cloud {
+  width: 200px;
+}
+header .c1 {
+  position: relative;
+  top: 70px;
+  left: 350px;
+}
+header .c2 {
+  position: absolute;
+  left: 100px;
+  bottom: 250px;
+}
+
+/* about */
+.about {
+    padding:100px 180px;
+  text-align: center;
+}
+
+.about img {
+    transition: 0.5s;
+  width: 15%;
+  border-radius: 50%;
+}
+
+.about:hover h2{
+    color:teal;
+    text-shadow: 2px 2px #ccc ;
+}
+.about:hover img{
+box-shadow: 0 0 5px 4px #ccc;
+}
+
+
+
+/* contact */
+.contact{
+    padding:100px 180px;
+    text-align: center;
+}
+.contact h4{
+    color: #66bfbf;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.cta{
+    text-decoration: none;
+    color:#fff;
+    background: linear-gradient(45deg, #66bfbf, teal);
+    padding: 10px 15px;
+    display: block;
+    width:15%;
+    margin: 20px auto;
+    font-family: "Poppins";
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.cta:hover{
+    width:20%;
+    background: linear-gradient(45deg, teal,#66bfbf);
+}
