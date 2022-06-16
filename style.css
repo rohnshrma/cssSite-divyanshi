@@ -114,3 +114,34 @@ box-shadow: 0 0 5px 4px #ccc;
     width:20%;
     background: linear-gradient(45deg, teal,#66bfbf);
 }
+
+
+
+/* .footer */
+footer
+{
+  color: #fff;
+  padding: 70px;
+  text-align: center;
+  background-color: #66bfbf;
+}
+
+footer a{
+  text-decoration: none;
+  color:#fff;
+  transition: 0.5s;
+}
+footer span{
+  margin :0 20px;
+}
+footer span:hover a{
+  color: teal;
+}
+
+footer .copy{
+  margin-top: 20px;
+}
+
+footer i {
+  font-size: 20px;
+}
